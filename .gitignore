@@ -1,5 +1,6 @@
-# Object file
-*.o
-
-# Ada Library Information
-*.ali
+/node_modules
+/npm-debug.log
+test.html
+.tern-*
+*~
+*.swp
