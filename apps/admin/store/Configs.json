@@ -1,0 +1,33 @@
+{
+  success : true,
+  data: {
+        "text":".",
+        "children": [
+        {
+            id : 1,
+            name:'qingdao',
+            value:'青岛',
+            comment : 'comment',
+            expanded: true,
+            children:[{
+                id : 2,
+                name:'namenode',
+                value:'',
+                comment : 'comment',
+                children:[{
+                    id : 3,
+                    name:'namenode.ip',
+                    value:'10.0.0.1',
+                    comment : 'comment',
+                    leaf:true,
+                },{
+                    id : 4,
+                    task:'namenode.name',
+                    value:'name',
+                    comment : 'comment',
+                    leaf:true,
+                }]
+            }]
+        }
+    ]}
+}

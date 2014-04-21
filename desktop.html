@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>HOP -- Hadoop Operate Platform</title>
+    <link rel="stylesheet" type="text/css" href="extjs4/resources/css/ext-all.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/desktop.css" />
+    <link href="favicon.ico" type="image/ico" rel="shortcut icon">
+
+    <!-- GC -->
+    <script type="text/javascript">
+        GLOBAL_USER_LOGGED_IN = true;
+
+        GLOBAL_STANDALONE = true;
+
+        GLOBAL_USER_PROFILE = {
+            // apiUrl : '',
+            // wpUrl : '',
+            // themesUrl : '',
+            // themePreviewUrl : '',
+            launchers : {
+                autorun : [],
+                quickstart : ['settings', 'administration', 'filesystem'],
+                shortcut : ['settings', 'filesystem', 'metadata','workflow','admin','ide','cluster','help']
+            },
+            modules : [{
+                moduleId : 'settings',
+                controller : 'Tn.settings.controller.SettingsController',
+                iconCls : 'settings-shortcut',
+                text : 'Settings',
+                tooltip : 'Settings !',
+                menuPath : 'toolmenu',
+                launcher : {
+                    iconCls : 'settings-icon',
+                    text : 'Setting!'
+                }
+            }, {
+                moduleId : 'administration',
+                controller : 'Tn.administration.controller.AdministrationController',
+                iconCls : 'administration-shortcut',
+                text : 'Settings',
+                tooltip : 'Settings !',
+                menuPath : 'toolmenu',
+                launcher : {
+                    iconCls : 'administration-icon',
+                    text : 'Setting!'
+                }
+            }, {
+                moduleId : 'filesystem',
+                controller : 'Tn.filesystem.controller.FileSystemController',
+                iconCls : 'filesystem-shortcut',
+                text : 'Settings',
+                tooltip : 'Settings !',
+                menuPath : 'toolmenu',
+                launcher : {
+                    iconCls : 'filesystem-icon',
+                    text : 'Setting!'
+                }
+            }, {
+                moduleId : 'metadata',
+                controller : 'Tn.metadata.controller.MetadataController',
+                iconCls : 'metadata-shortcut',
+                text : 'Metadata',
+                tooltip : 'Settings !',
+                menuPath : 'toolmenu',
+                launcher : {
+                    iconCls : 'metadata-icon',
+                    shortcutIconCls : 'metadata-icon',
+                    text : 'Metadata!'
+                }
+            }, {
+                moduleId : 'workflow',
+                controller : 'Tn.workflow.controller.WorkflowController',
+                iconCls : 'workflow-shortcut',
+                text : 'Workflow',
+                tooltip : 'workflow !',
+                menuPath : 'toolmenu',
+                launcher : {
+                    iconCls : 'workflow-icon',
+                    text : 'workflow!'
+                }
+            }, {
+                moduleId : 'admin',
+                controller : 'Tn.admin.controller.AdminController',
+                iconCls : 'admin-shortcut',
+                text : 'Admin',
+                tooltip : 'Admin !',
+                menuPath : 'toolmenu',
+                launcher : {
+                    iconCls : 'admin-icon',
+                    text : 'admin!'
+                }
+            }, {
+                moduleId : 'ide',
+                controller : 'Tn.ide.controller.IdeController',
+                iconCls : 'ide-shortcut',
+                text : 'IDE',
+                tooltip : 'IDE !',
+                menuPath : 'toolmenu',
+                launcher : {
+                    iconCls : 'ide-icon',
+                    text : 'ide!'
+                }
+            }, {
+                moduleId : 'cluster',
+                controller : 'Tn.cluster.controller.ClusterController',
+                iconCls : 'cluster-shortcut',
+                text : 'cluster',
+                tooltip : 'cluster !',
+                menuPath : 'toolmenu',
+                launcher : {
+                    iconCls : 'cluster-icon',
+                    text : 'cluster!'
+                }
+            }, {
+                moduleId : 'help',
+                controller : 'Tn.help.controller.HelpController',
+                iconCls : 'help-shortcut',
+                text : 'Help',
+                tooltip : 'Help !',
+                menuPath : 'toolmenu',
+                launcher : {
+                    iconCls : 'help-icon',
+                    text : 'help!'
+                }
+            }],
+            style : {
+                wallpaper : {
+                    file : 'resources/wallpapers/desk.jpg',
+                    position : false
+                }
+            }
+        }
+
+    </script>
+
+    <script type="text/javascript" src="extjs4/ext-all.js"></script>
+    <script type="text/javascript" src="apps/app.js"></script>
+
+
+</head>
+<body>
+
+</body>
+</html>
