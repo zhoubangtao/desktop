@@ -1,5 +1,7 @@
 /node_modules
 /npm-debug.log
+/extjs4/*
+!/extjs4/README.md
 test.html
 .tern-*
 *~
